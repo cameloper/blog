@@ -1,5 +1,12 @@
 [{
   "id": "0000",
   "title": "Demo Page",
-  "date": "31.07.2022"
+  "date": "31.07.2022",
+  "visible": false
+},
+{
+  "id": "0001",
+  "title": "Lorem Ipsum Dolor Sit Amet",
+  "date": "32.07.2022",
+  "visible": true
 }]

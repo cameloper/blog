@@ -22,7 +22,7 @@ async function loadPosts() {
     return response.json();
   })
   .then(json => {
-    let links = json.map(parsePost);
+    let links = json.filter(x=>x.visible).map(parsePost);
     let indexString = "<ul>\n" + links.join('\n') + "\n</ul>";
     document.getElementById("content").innerHTML = indexString;
   })
