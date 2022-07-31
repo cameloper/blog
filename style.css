@@ -1,11 +1,23 @@
 body {
-    background-color: #EFE3D8;
-    font-family: "Computer Modern Serif", serif;
-    align-items: center;
-    text-align: center;
-  }
+  background-color: #EFE3D8;
+  font-family: "Computer Modern Serif", serif;
+}
 
-  #title {
-    margin-top: 100px;
-  }
+#header {
+  text-align: center;
+}
+
+#title {
+  margin-top: 100px;
+}
+
+#content {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+}
 
