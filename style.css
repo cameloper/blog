@@ -1,5 +1,11 @@
 body {
+    background-color: #EFE3D8;
     font-family: "Computer Modern Serif", serif;
     align-items: center;
     text-align: center;
   }
+
+  #title {
+    margin-top: 100px;
+  }
+
