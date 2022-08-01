@@ -6,6 +6,8 @@ body {
 
 #header {
   text-align: center;
+  width: 80%;
+  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -16,12 +18,12 @@ a {
 }
 
 .splitter {
-  width: 80%;
+  width: 90%;
   color: #564A3F;
 }
 
 #content {
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 200px;
