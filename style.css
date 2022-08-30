@@ -1,7 +1,22 @@
 body {
   background-color: #EFE3D8;
+  color:#564A3F;
   font-family: "Computer Modern Serif", serif;
   font-size: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #EFE3D8;
+    color:#564A3F;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #564A3F;
+    color:#EFE3D8;
+  }
 }
 
 #header {
@@ -13,13 +28,11 @@ body {
 }
 
 a {
-  color: #564A3F;
   font-weight: bold;
 }
 
 .splitter {
   width: 90%;
-  color: #564A3F;
 }
 
 #content {
