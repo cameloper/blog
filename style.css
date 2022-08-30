@@ -31,6 +31,18 @@ a {
   font-weight: bold;
 }
 
+@media (prefers-color-scheme: light) {
+  a:visited{
+    color:#563f3f;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a:visited {
+    color:#efd8d8;
+  }
+}
+
 .splitter {
   width: 90%;
 }
