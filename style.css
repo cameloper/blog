@@ -32,14 +32,22 @@ a {
 }
 
 @media (prefers-color-scheme: light) {
+  a:link {
+    color: #564A3F;
+  }
+
   a:visited{
-    color:#563f3f;
+    color: #563f3f;
   }
 }
 
 @media (prefers-color-scheme: dark) {
+  a:link {
+    color: #EFE3D8;
+  }
+
   a:visited {
-    color:#efd8d8;
+    color: #efd8d8;
   }
 }
 
